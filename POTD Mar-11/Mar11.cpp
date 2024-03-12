@@ -27,10 +27,9 @@ int countPairs(vector<vector<int>> &mat1, vector<vector<int>> &mat2, int n, int 
         r1++;
     }
     if(c2=0){
-        c2=n-1,r2--;
+        c2=n-1;
+        r2--;
     }
-
     return ans;
-
     }
 };
